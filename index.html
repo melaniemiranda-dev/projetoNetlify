@@ -133,7 +133,7 @@
                 <h5>Tem algum dúvida? Precisa de alguma ajuda? Deixe um recado que o mais breve iremos entrar em contato
                     com você ♥</h5>
                 <form method="POST" class="formulario" data-aos="fade-down" action="/success" name="Form_Infragirls"
-                    netlify netlify-honeypot>
+                    netlify netlify-honeypot data-netlify-recaptcha="true">
                     <div class="form-row col-md-12 col-sm-4">
                         <div class="form-group col-md-12">
                             <label for="inputEmail4">Nome</label>
@@ -153,6 +153,7 @@
                         <label for="exampleFormControlTextarea1">Digite sua mensagem</label>
                         <textarea class="form-control" name="mensagem" id="inputMensagem" rows="7"></textarea>
                     </div>
+                    <div data-netlify-recaptcha="true"></div>
                     <div class="button__form">
                         <button class="btn btn-teste btn-outline-secondary">Enviar</button>
                     </div>
